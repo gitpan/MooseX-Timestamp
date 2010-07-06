@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,27 +14,27 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 250fb0f004a91dde586f273ce7a7ec94a78412c1 Changelog
+SHA1 d532315681186806cf970ce5842628791c7e600f Changelog
 SHA1 3cd263114758f4a5c111ca939a4dff692ee03540 MANIFEST
-SHA1 3c458087b577b636a0338e5bcb47bedabda2dd10 META.yml
-SHA1 bc1cc765bf0bfa353bbec36570eb7e2882ef70e1 Makefile.PL
-SHA1 7e2cfa1b9efe0d502ee57717649c90ba4bd28ba9 inc/Module/Install.pm
-SHA1 6e1392d80a0f239eecd5664f7f21f922cedb9329 inc/Module/Install/Base.pm
-SHA1 f69417fe831d9cc22a78f00a617afadceade4d81 inc/Module/Install/Can.pm
-SHA1 c61d02895330310048bf388881b5e2e064031561 inc/Module/Install/Fetch.pm
-SHA1 54fcbed19232ec959bb17cfb4410599afc7f0779 inc/Module/Install/Makefile.pm
-SHA1 7d3be9b158e37b2b2c22084740099955623b1d56 inc/Module/Install/Metadata.pm
-SHA1 0a8b66180229ba2f9deaea1fedd0aacf7a7ace6b inc/Module/Install/Win32.pm
-SHA1 d3352eb33fe43a5f3ead513f645224fe34d73bc9 inc/Module/Install/WriteAll.pm
-SHA1 e86b2999dc822520facba51e097c7e7eb10876ec lib/MooseX/Timestamp.pm
-SHA1 2c6789a11a276906a69c16323f64545eee5f739f lib/MooseX/TimestampTZ.pm
+SHA1 82b53207289fd50e4cdf175a2c1d996a578a7c2c META.yml
+SHA1 fe8b2c89f65a1c2fc295d8c40b7bcfc73d6ecf5d Makefile.PL
+SHA1 78edb89a439463e44c33a72bbee84c54d0dc8aaf inc/Module/Install.pm
+SHA1 8ea4e37df83fd0c1c050be5c8da75545c3828d9b inc/Module/Install/Base.pm
+SHA1 1da6031583c32f0d1ec073b8376102fc51427dcc inc/Module/Install/Can.pm
+SHA1 b779375b90c16af2f31f38a1dd2b5df223c7f2fb inc/Module/Install/Fetch.pm
+SHA1 2054450e1e9c1dd8056362bf4a64ae70d5d71476 inc/Module/Install/Makefile.pm
+SHA1 5d6189b2cad15cf9932a28faafd55130c8247e83 inc/Module/Install/Metadata.pm
+SHA1 02af973fae2ac3531fa6b704574b2b8cb2a08148 inc/Module/Install/Win32.pm
+SHA1 3a2eab96e91cca8d99938cda7791759ae9d97b3a inc/Module/Install/WriteAll.pm
+SHA1 6581e411e06344e49c8b34a958c326ea88b7cf49 lib/MooseX/Timestamp.pm
+SHA1 a56339a15e6bb5ad4c7dc34982de06a38c1a80c7 lib/MooseX/TimestampTZ.pm
 SHA1 3815f6f5cf2b20b977a280e4bb88006c4fa710a9 t/00-load.t
 SHA1 5f9b69fe747973ff02eb393cfdeff0ca282ea5af t/10-timestamp.t
-SHA1 50bdcf25a8cc53cfa61b9fc7aa07491a09835b0f t/20-timestamptz.t
+SHA1 1087bcfc34f759f21118eee5b0809eb9b033d44c t/20-timestamptz.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.6 (GNU/Linux)
+Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkie6DIACgkQ/AZAiGayWEPSlACdENz8d8jqkOTQdRro1BhpCdbT
-X6oAnjGq38HxATTispE7Qn8r3YSpxR04
-=ix+4
+iEYEARECAAYFAkwynM0ACgkQ/AZAiGayWEPcHgCfdEpm1TD1gnhrABYpWrYP6mbC
+oF0An3wz/SdNgWxDR1UKNW+F0q6t0NtK
+=Xrz/
 -----END PGP SIGNATURE-----
