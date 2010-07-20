@@ -42,6 +42,8 @@ like(gmtimestamptz,
 		);
 }
 
+$ENV{TZ}="UTC"; # FIXME - these tests need this
+
 my $obj = MyClass->new(stamp => "2007-01-02 12:00:12"); # ok
 like($obj->stamp, qr{2007-01-02 12:00:12[\-+]\d+},
    "set value matching type constraint");
@@ -91,6 +93,8 @@ is($obj->stamp, "2007-01-04 12:00:00+0143", "funny time zones OK");
 
 $obj->stamp("2007-01-04 12:00:00+01:43");
 is($obj->stamp, "2007-01-04 12:00:00+0143", "funny time zones OK II");
+
+is(epoch("1970-01-01 00:01:01.001Z"), 61.001, "epoch(Z) w/ms");
 
 SKIP:{
 	local($TODO) = "Moose coercion rules sort badly";

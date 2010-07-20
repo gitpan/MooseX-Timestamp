@@ -16,3 +16,4 @@ SIGNATURE
 t/00-load.t
 t/10-timestamp.t
 t/20-timestamptz.t
+t/30-hires.t
